@@ -105,3 +105,33 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+@media screen and (max-width: 400px) {
+    .card{
+        width: 90%;
+        /* padding: 10px 20px; */
+    }   
+
+    .search{
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0%;
+    }
+
+    .search input{
+     width: 220px;
+     padding: 10px 20px;
+    }
+
+    .search button{
+        width: 40px;
+        height: 40px;
+        padding: 2px 12px;
+    }
+
+    
+    
+}
