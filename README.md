@@ -11,4 +11,9 @@
 #### https://quiz-app-js-03.netlify.app
 ![image](https://github.com/sabrinara/JavaScript_Projects/assets/54745113/2622d44a-9e7c-4117-92af-8bd28bbb9341)
 
+# Random Password Generator App
+#### https://password-generator-04.netlify.app
+![image](https://github.com/sabrinara/JavaScript_Projects/assets/54745113/e203d414-f7a3-4e03-947b-bc9e51c9c038)
+
+
  
