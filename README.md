@@ -15,5 +15,11 @@
 #### https://password-generator-04.netlify.app
 ![image](https://github.com/sabrinara/JavaScript_Projects/assets/54745113/e203d414-f7a3-4e03-947b-bc9e51c9c038)
 
+# Dom Manipulation E-commerce
+#### https://james-michelle-dom-manipulation.netlify.app
+
+<img src="https://github.com/user-attachments/assets/e5435f51-1c64-451c-8cde-d37b05de75dc" alt="image" width="240" height="600" />
+
+
 
  
