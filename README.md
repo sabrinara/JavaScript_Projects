@@ -24,7 +24,7 @@
 #### https://circle-animation-js.netlify.app/
 ![image](https://github.com/user-attachments/assets/1f89980f-ab4c-4e61-b221-d86289b0ada0)
 
-# Circle animation with image and text with radiant 
+# Circle animation with image and text with radiant (!js)
 #### https://radiant-circle-css.netlify.app
 ![image](https://github.com/user-attachments/assets/3ae8110d-443a-4c75-9bb7-c39ffba99a1f)
 
