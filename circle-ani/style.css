@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    /* background: #000; */
+}
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation: anim 10s linear infinite;
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 100px;
+
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
