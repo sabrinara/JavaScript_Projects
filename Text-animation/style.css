@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+h1{
+    font-size: 4rem;
+    background: linear-gradient(
+        to right,
+        rgb(250, 78, 10),
+        rgb(247, 12, 204),
+        rgb(0, 106, 255),
+        rgb(48, 248, 255)
+    );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation{
+    0%{
+        background-position: 200% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
