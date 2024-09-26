@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.35s linear;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: #111;
+}
+
+.card{
+    --color:#ff88a6;
+    --border-size : 1rem;
+    --bg-color: #252525;
+    position: relative;
+    width: 280px;
+    margin: 2rem;
+    border-radius: var(--border-size);
+    background-color: var(--bg-color);
+    color: white;
+    display: grid;
+    place-content: center;
+    padding: 3rem 2rem;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.card::before,
+.card::after{
+    content: '';
+    position: absolute;
+}
+
+.card::before{
+    width: 200%;
+    height: 200%;
+    background-image: conic-gradient(var(--color) 0deg, 
+                    transparent 60deg, 
+                    transparent 180deg,
+                    var(--color) 180deg,
+                    transparent 240deg );
+    inset: -50%;
+    z-index: -2;
+    animation: border 8s linear infinite;
+}
+
+.card:hover::before{
+    animation-play-state: paused;
+}
+
+@keyframes border {
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
+
+.card::after{
+    --inset: 0.25rem;
+    background-color: #111;
+    inset: var(--inset);
+    border-radius: calc(var(--border-size) - var(--inset) );
+    z-index: -1;
+    transition: all 0.35s linear;
+}
+
+.card:hover::after{
+    background-color: var(--bg-color);
+}
