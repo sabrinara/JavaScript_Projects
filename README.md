@@ -29,6 +29,11 @@
 ![image](https://github.com/user-attachments/assets/3ae8110d-443a-4c75-9bb7-c39ffba99a1f)
 
 
+#Animated Card-CSS
+#### https://animated-card-radient.netlify.app
+![image](https://github.com/user-attachments/assets/3ef77dd5-e7d7-42ee-a060-3a2fb0419392)
+
+
 
 
 
