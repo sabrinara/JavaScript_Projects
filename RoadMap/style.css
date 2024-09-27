@@ -70,8 +70,10 @@ div.one:after{
     transform: translate(-50%,-50%);
 }
 
+/* loader end  */
+
 .start ul li:nth-child(1){
-    background: url(images/process-top.png) 65px top no-repeat !important;
+    background: url(images/process-top.png) 65px top no-repeat !important; /*here is the above icon image  */
     padding-top: 180px !important;
 }
 .start ul li:nth-child(odd){
