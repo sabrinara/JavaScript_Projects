@@ -33,8 +33,9 @@
 #### https://animated-card-radient.netlify.app
 ![image](https://github.com/user-attachments/assets/3ef77dd5-e7d7-42ee-a060-3a2fb0419392)
 
-
-
+#Animated Text-Css
+#### https://text-animated.netlify.app
+![image](https://github.com/user-attachments/assets/7815a9d5-2131-46a3-8e9c-8403728d1898)
 
 
 
