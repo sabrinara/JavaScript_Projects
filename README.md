@@ -42,5 +42,12 @@
 
 
 
+#Animated Card
+####https://animated-card-hover.netlify.app
+![image](https://github.com/user-attachments/assets/97cf14cd-be9b-4a9b-a7cb-61b74e19bda6)
+
+
+
+
 
  
