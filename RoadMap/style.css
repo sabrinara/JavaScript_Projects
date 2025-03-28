@@ -9,7 +9,7 @@ body{
 
 }
 
-#loader{
+/* #loader{
     position: fixed;
     top: 0;
     left: 0;
@@ -69,8 +69,9 @@ div.one:after{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+    */
 
-/* loader end  */
+/* loader end  */ 
 
 .start ul li:nth-child(1){
     background: url(images/process-top.png) 65px top no-repeat !important; /*here is the above icon image  */

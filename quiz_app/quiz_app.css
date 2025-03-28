@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
+
 }
-body{
-    
+
+body {
+
     /* background-image: linear-gradient(180deg, rgba(34,164,116,1) 0%, rgba(41,47,143,1) ); */
     height: 100vh;
     width: 100%;
-  
+
 }
-.app{
+
+.app {
     /* background-image: linear-gradient(180deg, rgba(34,164,116,1) 0%, rgba(41,47,143,1) ); */
     height: 100vh;
     width: 100%;
@@ -20,93 +22,106 @@ body{
     align-items: center;
     color: rgb(34, 34, 145);
 }
-h1{
+
+h1 {
     font-weight: bold;
-    font-size:34px;
+    font-size: 34px;
     text-align: center;
     margin: 20px 0px;
 }
-h2{
+
+h2 {
     font-weight: bold;
     font-size: 24px;
     margin: 10px 0px;
 }
-.quizbox{
-  max-width:600px;
-  min-width:500px;
-  background-image: linear-gradient(180deg, rgb(14, 188, 241) 0%, rgb(205, 241, 252) ); 
-  padding: 20px 40px;
-  border-radius: 10px;
+
+.quizbox {
+    max-width: 600px;
+    min-width: 500px;
+    background-image: linear-gradient(180deg, rgb(14, 188, 241) 0%, rgb(205, 241, 252));
+    padding: 20px 40px;
+    border-radius: 10px;
 }
-hr{
+
+hr {
     margin: 10px 0px;
 }
-.quiz{
-    margin:10px 0px;
+
+.quiz {
+    margin: 10px 0px;
 }
-.btn{
-    width:100%;
-    padding:10px 5px;
-    margin:12px 0px;
-    border:1px solid rgb(16, 70, 114);
+
+.btn {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 12px 0px;
+    border: 1px solid rgb(16, 70, 114);
     background-color: rgb(226, 248, 255);
-    border-radius:5px;
+    border-radius: 5px;
     cursor: pointer;
 }
-.btn:hover:not([disabled]){
+
+.btn:hover:not([disabled]) {
     background-color: rgb(16, 70, 114);
     color: white;
 }
-.btn:disabled{
-    cursor:no-drop;
+
+.btn:disabled {
+    cursor: no-drop;
 }
-#next-btn{
+
+#next-btn {
     width: 100%;
     padding: 12px 28px;
-     margin:10px 0px;
-     border:1px solid ;
-     background-color: rgb(140, 228, 255);
-     border-radius:5px;
-     color: rgb(16, 70, 114);
-     font-weight: bold;
-     display: none;
+    margin: 10px 0px;
+    border: 1px solid;
+    background-color: rgb(140, 228, 255);
+    border-radius: 5px;
+    color: rgb(16, 70, 114);
+    font-weight: bold;
+    display: none;
 }
-.correct{
+
+.correct {
     background-color: rgb(16, 70, 114);
-    color:rgb(241, 245, 245);
+    color: rgb(241, 245, 245);
 }
-.incorrect{
+
+.incorrect {
     background-color: rgb(234, 159, 159);
     color: rgb(123, 13, 13);
 }
 
 
 
-    
-/* Responsive Styles */
-@media (max-width: 400px) {
+
+
+@media screen and (max-width: 600px) {
     .app {
         flex-direction: column;
         padding: 20px 10px;
+        
     }
+
     .quizbox {
         padding: 20px;
         min-width: unset;
     }
-    
+
     h1 {
         font-size: 28px;
     }
-    
+
     h2 {
         font-size: 20px;
     }
-    
+
     .btn {
         padding: 10px 5px;
         margin: 10px 0;
     }
-    
+
     #next-btn {
         padding: 12px 20px;
     }

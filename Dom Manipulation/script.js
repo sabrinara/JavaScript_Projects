@@ -133,7 +133,7 @@ bannerSection.style.marginTop = '30px';
 const text0 = document.createElement('div');
 text0.textContent = 'up to';
 text0.style.fontFamily = 'Arial, sans-serif';
-text0.style.marginLeft = '45px';
+text0.style.marginLeft = '90px';
 text0.style.fontSize = '14px';
 text0.style.fontWeight = '400';
 
